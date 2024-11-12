@@ -7,10 +7,10 @@ export default function CardPlan() {
   return (
     <section className="flex flex-col items-center justify-center gap-8 py-16 px-6 sm:px-8 lg:p-32 xl:gap-32">
       <div className="text-center text-custom-blue-500">
-        <h2 className="font-semibold text-32 xl:mb-[2rem]">
+        <h2 className="font-semibold text-22 mb-4 lg:text-32 xl:mb-8">
           Choose A Website Plan
         </h2>
-        <p className="font-light text-22">
+        <p className="text-16 lg:text-22">
           Select the Plan That&apos;s Right for You
         </p>
       </div>
@@ -19,11 +19,12 @@ export default function CardPlan() {
         {websitePlan.map((plan) => (
           <div
             key={plan.title}
-            className="cards flex flex-col items-center border-2 border-gray-200 rounded-4 bg-white text-custom-blue-500 gap-12 p-12 rounded-2xl w-full"
+            className="cards flex flex-col items-center border-2 border-gray-200 rounded-4 bg-white text-custom-blue-500 gap-6 sm:gap-12 p-12 rounded-2xl w-full"
           >
-            <h3 className="font-semibold text-12 lg:text-22">{plan.title}</h3>
-            <h4 className="font-semibold text-24 lg:text-18">Features:</h4>
-            <ul className="flex flex-col gap-8 text-22 lg:text-16">
+            <h3 className="font-semibold text-22">{plan.title}</h3>
+            <hr className="h-1 bg-gray-200 w-full" />
+            <h4 className="font-semibold text-18">Features:</h4>
+            <ul className="flex flex-col gap-2 lg:gap-8 text-14 lg:text-16">
               {plan.features.map((feature) => (
                 <li key={feature.value} className="flex items-center gap-4">
                   <img
