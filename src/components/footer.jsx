@@ -4,7 +4,7 @@ import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer className="grid grid-cols-2 place-items-start bg-custom-blue-200 p-16 gap-y-12 items-start lg:grid-cols-4 lg:gap-x-16 xl:p-32">
+    <footer className="grid grid-cols-2 place-items-start bg-custom-blue-200 px-12 py-10 gap-y-12 items-start lg:grid-cols-4 lg:gap-x-16 xl:p-32">
       <div className="col-span-4 flex flex-col gap-8 lg:col-span-1 xl:gap-16">
         <div className="flex items-start justify-start">
           <img
@@ -78,8 +78,10 @@ export default function Footer() {
         <span className="text-custom-blue-500 font-semibold">
           Megadel Africa:{" "}
         </span>
-        We help business owners with the required knowledge to build a
-        structured and thriving business.
+        <span className="block text-center lg:inline-block">
+          We help business owners with the required knowledge to build a
+          structured and thriving business.
+        </span>
       </p>
     </footer>
   );
