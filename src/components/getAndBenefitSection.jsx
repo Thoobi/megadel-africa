@@ -6,25 +6,25 @@ import { Link } from "react-router-dom";
 export default function GetAndBenefits() {
   return (
     <section
-      className="flex flex-col gap-4 items-center justify-center bg-custom-blue-500 text-white px-12 py-24 sm:p-12 xl:p-32"
+      className="flex flex-col gap-4 items-center justify-center bg-custom-blue-500 text-white px-10 py-12 sm:p-12 xl:p-32"
       style={{
         backgroundImage: `linear-gradient(to right, rgba(10, 47, 99, 0.7), rgba(10, 47, 99, 0.8)), url(${benefitImg})`,
       }}
     >
-      <h2 className="font-semibold text-32 leading-none">
+      <h2 className="font-semibold text-16 sm:text-24 md:text-32 leading-none">
         What You Will Get And Its Benefits
       </h2>
-      <p className="font-semibold text-24">
+      <p className="font-semibold text-14 text-center md:text-24">
         Your Path to Success: The Megadel Africa Advantage
       </p>
 
       <p className="text-16 font-normal mb-10">Benefits</p>
 
-      <div className="block w-4/5 xl:hidden">
+      <div className="block w-full xl:hidden">
         <Carousel>
           {benefits.map((benefit) => (
             <figure
-              className="flex flex-col items-start justify-center gap-8 bg-white text-custom-blue-500 rounded-[1rem] h-full p-8"
+              className="flex flex-col items-start justify-center gap-8 bg-white text-custom-blue-500 rounded-2xl h-full p-8"
               key={benefit.title}
             >
               <img
@@ -34,7 +34,7 @@ export default function GetAndBenefits() {
                 height={70}
               />
               <h3 className="font-semibold text-22">{benefit.title}</h3>
-              <p>{benefit.content}</p>
+              <p className="text-16">{benefit.content}</p>
             </figure>
           ))}
         </Carousel>
