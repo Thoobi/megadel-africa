@@ -4,16 +4,16 @@ import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer className="grid grid-cols-2 place-items-start bg-custom-blue-200 p-[4rem] gap-y-[3rem] items-start lg:grid-cols-4 lg:gap-x-[4rem] xl:p-[8rem]">
-      <div className="col-span-4 flex flex-col gap-[2rem] lg:col-span-1 xl:gap-[4rem]">
+    <footer className="grid grid-cols-2 place-items-start bg-custom-blue-200 p-16 gap-y-12 items-start lg:grid-cols-4 lg:gap-x-16 xl:p-32">
+      <div className="col-span-4 flex flex-col gap-8 lg:col-span-1 xl:gap-16">
         <div className="flex items-start justify-start">
           <img
             src={Logo}
             alt="megadel logo image"
-            className="block translate-y-[-1.2rem]"
+            className="block -translate-y-5"
           />
         </div>
-        <div className="flex items-center gap-[4rem] lg:gap-[3rem]">
+        <div className="flex items-center gap-16 lg:gap-12">
           <Link>
             <FaTwitter
               className="text-custom-blue-500 hover:text-custom-blue-100"
@@ -40,7 +40,7 @@ export default function Footer() {
           </Link>
         </div>
       </div>
-      <div className="flex flex-col gap-[2rem]">
+      <div className="flex flex-col gap-8 text-16">
         <h4 className="font-semibold text-custom-blue-500">Company</h4>
         <p>
           <Link href="/about-us">About Us</Link>
@@ -52,7 +52,7 @@ export default function Footer() {
           <Link href="/faqs">FAQs</Link>
         </p>
       </div>
-      <div className="flex flex-col gap-[2rem]">
+      <div className="flex flex-col gap-8 text-16">
         <h4 className="font-semibold text-custom-blue-500">Resources</h4>
         <p>
           <Link href="privacy-policy">Privacy Policy</Link>
@@ -61,16 +61,19 @@ export default function Footer() {
           <Link href="terms&conditions">Terms & Conditions</Link>
         </p>
       </div>
-      <div className="flex flex-col gap-[2rem] col-span-4 lg:col-span-1">
+      <div className="flex flex-col gap-8 col-span-4 text-16 lg:col-span-1">
         <p>44 Commercial Avenue, Sabo, Yaba, Lagos State.</p>
         <p>
-          <Link href="mailto:hello@megadelafrica.com">
+          <Link
+            href="mailto:hello@megadelafrica.com"
+            className="underline hover:underline-offset-2"
+          >
             hello@megadelafrica.com
           </Link>
         </p>
         <p>+234 813 918 8935</p>
       </div>
-      <p className="col-start-2 col-end-4 text-left text-custom-blue-500 text-[1.5rem] place-items-center lg:text-center lg:self-center">
+      <p className="col-start-2 col-end-4 text-left text-custom-blue-500 text-16 place-items-center lg:text-center lg:self-center">
         © 2023{" "}
         <span className="text-custom-blue-500 font-semibold">
           Megadel Africa:{" "}
