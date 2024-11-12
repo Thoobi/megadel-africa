@@ -27,7 +27,7 @@ export default function Steps() {
         />
       </div>
 
-      <button className="text-white bg-custom-blue-100 rounded-lg px-8 py-4 lg:hidden">
+      <button className="text-white bg-custom-blue-100 rounded-lg px-8 py-4 text-16 lg:hidden">
         Get Started
       </button>
     </section>
