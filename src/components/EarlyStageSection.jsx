@@ -6,7 +6,7 @@ import { smallBusiness } from "../utils/util";
 
 export default function EarlyStage() {
   return (
-    <section className="flex flex-col items-stretch justify-center gap-20 px-12 py-24 sm:py-32 sm:px-24 xl:gap-60 xl:items-center xl:flex-row xl:p-64">
+    <section className="flex flex-col items-stretch justify-center gap-14 px-10 py-12 sm:py-32 sm:px-24 xl:gap-60 xl:items-center xl:flex-row xl:p-64">
       <div className="order-1 xl:order-[-1] xl:w-1/2">
         <img
           src={smallBusinessDesktop}
@@ -15,7 +15,7 @@ export default function EarlyStage() {
         />
       </div>
       <div className="text-18 flex flex-col gap-12 text-custom-blue-500 xl:w-1/2">
-        <h2 className="font-semibold mb-4 xl:mb-0 text-32">
+        <h2 className="font-semibold text-24 sm:text-32">
           For Aspiring Entrepreneurs and Early-Stage Founders
         </h2>
         <p className="font-medium text-24 xl:text-22">
