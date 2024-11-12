@@ -38,7 +38,7 @@ export default function CommunitySection() {
           </span>
         </li>
       </ul>
-      <button className="border-[1px] rounded-xl px-[3rem] py-[1.5rem]">
+      <button className="border-2 rounded-xl px-16 py-6 font-medium text-14">
         Join Now
       </button>
     </section>
