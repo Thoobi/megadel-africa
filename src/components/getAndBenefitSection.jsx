@@ -58,7 +58,7 @@ export default function GetAndBenefits() {
         ))}
       </div>
 
-      <Link className="bg-custom-blue-100 text-white text-16 font-medium px-10 py-5 mt-8 rounded-lg">
+      <Link className="bg-custom-blue-100 text-white text-16 font-medium px-10 py-5 mt-8 rounded-lg hidden xl:block">
         Get Started Today
       </Link>
     </section>
