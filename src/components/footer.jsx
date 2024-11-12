@@ -73,7 +73,7 @@ export default function Footer() {
         </p>
         <p>+234 813 918 8935</p>
       </div>
-      <p className="col-start-2 col-end-4 text-left text-custom-blue-500 text-16 place-items-center lg:text-center lg:self-center">
+      <p className="col-start-1 col-end-5 text-left text-custom-blue-500 text-14 place-items-center w-full mt-8 lg:text-center lg:self-center">
         © 2023{" "}
         <span className="text-custom-blue-500 font-semibold">
           Megadel Africa:{" "}
