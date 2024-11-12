@@ -78,7 +78,7 @@ export default function Footer() {
         <span className="text-custom-blue-500 font-semibold">
           Megadel Africa:{" "}
         </span>
-        <span className="block text-center lg:inline-block">
+        <span className="block text-center mt-3 lg:inline-block">
           We help business owners with the required knowledge to build a
           structured and thriving business.
         </span>
