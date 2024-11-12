@@ -21,7 +21,7 @@ export default function CommunitySection() {
             Business Owners trained
           </span>
         </li>
-        <li className="flex flex-col items-center justify-center gap-2">
+        <li className="flex flex-col items-center justify-center gap-2 col-start-1 xl:col-start-2">
           <span className="font-semibold text-22 lg:text-40">5+</span>
           <span className="font-medium text-13 leading-tight lg:text-13">
             Cities Impacted
@@ -33,14 +33,14 @@ export default function CommunitySection() {
             Implementation Partners
           </span>
         </li>
-        <li className="flex flex-col items-center justify-center gap-2">
+        <li className="flex flex-col items-center justify-center gap-2 col-start-2 row-start-1 xl:col-start-3">
           <span className="font-semibold text-22 lg:text-40">100+</span>
           <span className="font-medium text-13 leading-tight lg:text-13">
             Volunteer Team Members
           </span>
         </li>
       </ul>
-      <button className="border-2 rounded-xl px-16 py-4 font-medium text-14">
+      <button className="border-2 rounded-xl px-16 py-4 font-medium text-14 mt-4 xl:mt-0">
         Join Now
       </button>
     </section>
