@@ -38,6 +38,7 @@ export default {
         },
       },
       backgroundImage: {
+        "custom-radial": "radial-gradient(circle, #0A3A86, #09295D)",
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
