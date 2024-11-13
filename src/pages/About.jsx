@@ -78,7 +78,9 @@ export default function About() {
             {impact.map((item, i) => (
               <li
                 key={i}
-                className={`flex flex-col gap-3 col-span-2 bg-custom-blue-500 text-white px-14 py-24 rounded-2xl`}
+                className={`${
+                  i === 3 ? "col-start-2 col-end-4" : ""
+                } flex flex-col gap-3 col-span-2 bg-custom-blue-500 text-white px-14 py-24 rounded-2xl bg-custom-radial`}
               >
                 <h3 className="text-32 font-medium">{item.numbers}</h3>
                 <h5 className="text-24 font-medium mb-4">{item.title}</h5>
