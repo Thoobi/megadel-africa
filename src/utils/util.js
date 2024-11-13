@@ -264,27 +264,32 @@ const impact = [
   {
     numbers: "500+",
     title: "Business Trained",
-    content: "",
+    content:
+      "Over 500 businesses have successfully completed our training program and gained the knowledge and skills to drive their growth.",
   },
   {
     numbers: "3000+",
     title: "Community Members",
-    content: "",
+    content:
+      "Our online community boasts over 3,000 active members who engage in discussions, and collaborate on business opportunities.",
   },
   {
     numbers: "5",
     title: "Citis Impacted",
-    content: "",
+    content:
+      "Our reach extends to 5 cities, enabling entrepreneurs from various regions to benefit from our program.",
   },
   {
     numbers: "100+",
     title: "Volunteer Network",
-    content: "",
+    content:
+      "Our community is powered by a network of over 100 dedicated volunteers who contribute their time and expertise to empower small businesses. ",
   },
   {
     numbers: "10",
     title: "Partnerships",
-    content: "",
+    content:
+      "We have forged partnerships with 10 organizations, including governmental bodies, sponsors, and service providers, to offer additional support and resources to our participants.",
   },
 ];
 

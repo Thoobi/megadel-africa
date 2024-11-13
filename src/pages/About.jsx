@@ -4,6 +4,7 @@ import { impact } from "../utils/util";
 
 import about from "../asset/about/about.svg";
 import vision from "../asset/about/vision.svg";
+import Section from "../components/Section";
 
 export default function About() {
   return (
@@ -16,7 +17,7 @@ export default function About() {
       </header>
 
       <main>
-        <section className="flex items-center gap-24 w-full px-52 py-32">
+        <Section>
           <div className="w-1/2 flex flex-col gap-8 text-custom-blue-500 text-22">
             <h2 className="text-32 font-semibold">About Us</h2>
             <p className="font-serif">
@@ -36,9 +37,9 @@ export default function About() {
           <figure className="flex-1">
             <img src={about} alt="" className="w-full block object-cover" />
           </figure>
-        </section>
+        </Section>
 
-        <section className="flex items-center gap-24 w-full px-52 py-32">
+        <Section>
           <figure className="w-1/2">
             <img src={vision} alt="" className="w-full block object-cover" />
           </figure>
@@ -61,28 +62,33 @@ export default function About() {
               potentials for growth and profitability.
             </p>
           </div>
-        </section>
+        </Section>
 
-        <section>
-          <h2>Our Impact</h2>
-          <p>
+        <Section classname="flex-col">
+          <h2 className="text-32 text-custom-blue-500 font-semibold">
+            Our Impact
+          </h2>
+          <p className="text-18 text-custom-blue-500 text-center w-2/3">
             Since our inception, Megadel Africa has made a significant impact on
             small businesses across the region. Here are some key highlights of
             our achievements
           </p>
 
-          <ul>
+          <ul className="grid grid-cols-6 gap-4">
             {impact.map((item, i) => (
-              <li key={i}>
-                <h3>{item.numbers}</h3>
-                <h5>{item.title}</h5>
-                <p>{item.content}</p>
+              <li
+                key={i}
+                className={`col-span-2 bg-custom-blue-500 text-white px-8 py-16`}
+              >
+                <h3 className="text-22 font-medium">{item.numbers}</h3>
+                <h5 className="text-18">{item.title}</h5>
+                <p className="text-16">{item.content}</p>
               </li>
             ))}
           </ul>
-        </section>
+        </Section>
 
-        <section>
+        <Section>
           <h2>Join us today</h2>
           <p>
             If you&apos;re a small business owner or an aspiring entrepreneur
@@ -94,7 +100,7 @@ export default function About() {
             embark on this journey with you and help you unlock your
             business&apos;s true potential.
           </p>
-        </section>
+        </Section>
 
         <Subscribe />
       </main>
