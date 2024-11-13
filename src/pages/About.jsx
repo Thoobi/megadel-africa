@@ -2,6 +2,9 @@ import Footer from "../components/footer";
 import Subscribe from "../components/subscribe";
 import { impact } from "../utils/util";
 
+import about from "../asset/about/about.svg";
+import vision from "../asset/about/vision.svg";
+
 export default function About() {
   return (
     <>
@@ -13,17 +16,17 @@ export default function About() {
       </header>
 
       <main>
-        <section className="flex items-center w-full px-52 py-32">
+        <section className="flex items-center gap-24 w-full px-52 py-32">
           <div className="w-1/2 flex flex-col gap-8 text-custom-blue-500 text-22">
             <h2 className="text-32 font-semibold">About Us</h2>
-            <p>
+            <p className="font-serif">
               At Megadel Africa, we understand the challenges that small
               businesses face in their journey towards growth and success.
               Limited resources, lack of expertise, and the ever-evolving
               digital landscape can pose significant obstacles.
             </p>
 
-            <p>
+            <p className="font-serif">
               That&apos;s why we have developed a comprehensive program tailored
               specifically to address these challenges and enable businesses to
               reach new heights.
@@ -31,19 +34,19 @@ export default function About() {
           </div>
 
           <figure className="flex-1">
-            <img src="" alt="" className="w-full block object-cover" />
+            <img src={about} alt="" className="w-full block object-cover" />
           </figure>
         </section>
 
-        <section className="flex items-center w-full px-52 py-32">
+        <section className="flex items-center gap-24 w-full px-52 py-32">
           <figure className="w-1/2">
-            <img src="" alt="" className="w-full block object-cover" />
+            <img src={vision} alt="" className="w-full block object-cover" />
           </figure>
 
           <div className="flex-1 flex flex-col gap-8 text-custom-blue-500 text-22">
             <h2 className="text-32 font-semibold">Our Vision</h2>
 
-            <p>
+            <p className="font-serif">
               Our vision is to empower business owners, equipping them with
               essential tools and the knowledge needed to establish a thriving
               online business. By providing comprehensive resources and support,
@@ -51,7 +54,7 @@ export default function About() {
               landscape and achieve their goal.
             </p>
 
-            <p>
+            <p className="font-serif">
               Our commitment is to ensure that business owners have necessary
               guidance and expertise to build strong online presence,
               effectively reach their target audience and maximize their
