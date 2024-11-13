@@ -1,3 +1,5 @@
+import Button from "./Button";
+
 export default function Subscribe() {
   return (
     <section className="flex flex-col items-stretch text-center justify-center text-custom-blue-500 px-10 py-6 gap-4 sm:p-16 lg:items-center xl:p-32">
@@ -15,12 +17,7 @@ export default function Subscribe() {
           className="py-6 px-6 border-2 outline-none flex-1 text-14 rounded-lg lg:text-16 lg:border-0"
           required
         />
-        <button
-          type="submit"
-          className="bg-custom-blue-100 text-white rounded-xl text-16 py-3 lg:py-6 lg:px-12"
-        >
-          Subscribe
-        </button>
+        <Button classname="rounded-xl">Subscribe</Button>
       </form>
     </section>
   );
