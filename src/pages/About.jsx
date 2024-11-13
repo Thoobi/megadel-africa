@@ -13,9 +13,9 @@ export default function About() {
       </header>
 
       <main>
-        <section>
-          <div>
-            <h2>About Us</h2>
+        <section className="flex items-center w-full px-52 py-32">
+          <div className="w-1/2 flex flex-col gap-8 text-custom-blue-500 text-22">
+            <h2 className="text-32 font-semibold">About Us</h2>
             <p>
               At Megadel Africa, we understand the challenges that small
               businesses face in their journey towards growth and success.
@@ -30,23 +30,32 @@ export default function About() {
             </p>
           </div>
 
-          <figure></figure>
+          <figure className="flex-1">
+            <img src="" alt="" className="w-full block object-cover" />
+          </figure>
         </section>
 
-        <section>
-          <figure></figure>
+        <section className="flex items-center w-full px-52 py-32">
+          <figure className="w-1/2">
+            <img src="" alt="" className="w-full block object-cover" />
+          </figure>
 
-          <div>
-            <h2>Our Vision</h2>
+          <div className="flex-1 flex flex-col gap-8 text-custom-blue-500 text-22">
+            <h2 className="text-32 font-semibold">Our Vision</h2>
+
             <p>
               Our vision is to empower business owners, equipping them with
               essential tools and the knowledge needed to establish a thriving
               online business. By providing comprehensive resources and support,
               we enable entrepreneurs to confidently navigate the digital
-              landscape and achieve their goal. Our commitment is to ensure that
-              business owners have necessary guidance and expertise to build
-              strong online presence, effectively reach their target audience
-              and maximize their potentials for growth and profitability.
+              landscape and achieve their goal.
+            </p>
+
+            <p>
+              Our commitment is to ensure that business owners have necessary
+              guidance and expertise to build strong online presence,
+              effectively reach their target audience and maximize their
+              potentials for growth and profitability.
             </p>
           </div>
         </section>
