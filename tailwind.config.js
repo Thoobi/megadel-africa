@@ -26,6 +26,9 @@ export default {
           100: "#ED5B2E",
         },
       },
+      height: {
+        "screen-1/2": "50vh",
+      },
       backgroundColor: {
         "custom-blue": {
           100: "#166AE3",
