@@ -17,7 +17,7 @@ export default function About() {
       </header>
 
       <main>
-        <Section>
+        <Section classname="gap-24">
           <div className="w-1/2 flex flex-col gap-8 text-custom-blue-500 text-22">
             <h2 className="text-32 font-semibold">About Us</h2>
             <p className="font-serif">
@@ -39,7 +39,7 @@ export default function About() {
           </figure>
         </Section>
 
-        <Section>
+        <Section classname="gap-24">
           <figure className="w-1/2">
             <img src={vision} alt="" className="w-full block object-cover" />
           </figure>
@@ -64,11 +64,11 @@ export default function About() {
           </div>
         </Section>
 
-        <Section classname="flex-col">
-          <h2 className="text-32 text-custom-blue-500 font-semibold">
+        <Section classname="flex-col gap-10">
+          <h2 className="text-32 text-custom-blue-500 font-semibold leading-none">
             Our Impact
           </h2>
-          <p className="text-18 text-custom-blue-500 text-center w-2/3">
+          <p className="text-18 text-custom-blue-500 text-center w-2/3 mb-8">
             Since our inception, Megadel Africa has made a significant impact on
             small businesses across the region. Here are some key highlights of
             our achievements
