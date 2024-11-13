@@ -1,5 +1,6 @@
 import Footer from "../components/footer";
 import Subscribe from "../components/subscribe";
+import { impact } from "../utils/util";
 
 export default function About() {
   return (
@@ -55,7 +56,15 @@ export default function About() {
             our achievements
           </p>
 
-          <ul></ul>
+          <ul>
+            {impact.map((item, i) => (
+              <li key={i}>
+                <h3>{item.numbers}</h3>
+                <h5>{item.title}</h5>
+                <p>{item.content}</p>
+              </li>
+            ))}
+          </ul>
         </section>
 
         <section>
