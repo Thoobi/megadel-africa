@@ -260,4 +260,39 @@ const training = [
   },
 ];
 
-export { websitePlan, smallBusiness, growingBusiness, benefits, training };
+const impact = [
+  {
+    numbers: "500+",
+    title: "Business Trained",
+    content: "",
+  },
+  {
+    numbers: "3000+",
+    title: "Community Members",
+    content: "",
+  },
+  {
+    numbers: "5",
+    title: "Citis Impacted",
+    content: "",
+  },
+  {
+    numbers: "100+",
+    title: "Volunteer Network",
+    content: "",
+  },
+  {
+    numbers: "10",
+    title: "Partnerships",
+    content: "",
+  },
+];
+
+export {
+  websitePlan,
+  smallBusiness,
+  growingBusiness,
+  benefits,
+  training,
+  impact,
+};
