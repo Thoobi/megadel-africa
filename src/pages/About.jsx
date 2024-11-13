@@ -5,10 +5,13 @@ import { impact } from "../utils/util";
 export default function About() {
   return (
     <>
-      <header>
-        <h1>Empowering Global Innovation</h1>
-        <p>Our Mission: To Fuel African Entrepreneurship</p>
+      <header className="flex flex-col items-center justify-center gap-2 h-[50vh] bg-custom-blue-900 text-white">
+        <h1 className="text-40 font-semibold">Empowering Global Innovation</h1>
+        <p className="text-18 font-serif">
+          Our Mission: To Fuel African Entrepreneurship
+        </p>
       </header>
+
       <main>
         <section>
           <div>
