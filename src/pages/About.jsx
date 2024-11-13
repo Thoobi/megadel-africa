@@ -74,15 +74,15 @@ export default function About() {
             our achievements
           </p>
 
-          <ul className="grid grid-cols-6 gap-4">
+          <ul className="grid grid-cols-6 gap-8">
             {impact.map((item, i) => (
               <li
                 key={i}
-                className={`col-span-2 bg-custom-blue-500 text-white px-8 py-16`}
+                className={`flex flex-col gap-3 col-span-2 bg-custom-blue-500 text-white px-14 py-24 rounded-2xl`}
               >
-                <h3 className="text-22 font-medium">{item.numbers}</h3>
-                <h5 className="text-18">{item.title}</h5>
-                <p className="text-16">{item.content}</p>
+                <h3 className="text-32 font-medium">{item.numbers}</h3>
+                <h5 className="text-24 font-medium mb-4">{item.title}</h5>
+                <p className="text-18 font-serif">{item.content}</p>
               </li>
             ))}
           </ul>
