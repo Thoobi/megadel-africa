@@ -5,6 +5,7 @@ import { impact } from "../utils/util";
 import about from "../asset/about/about.svg";
 import vision from "../asset/about/vision.svg";
 import Section from "../components/Section";
+import Button from "../components/Button";
 
 export default function About() {
   return (
@@ -39,7 +40,7 @@ export default function About() {
           </figure>
         </Section>
 
-        <Section classname="gap-24">
+        <Section classname="gap-24 bg-custom-blue-200">
           <figure className="w-1/2">
             <img src={vision} alt="" className="w-full block object-cover" />
           </figure>
@@ -90,9 +91,12 @@ export default function About() {
           </ul>
         </Section>
 
-        <Section>
-          <h2>Join us today</h2>
-          <p>
+        <Section classname="flex-col gap-8 bg-custom-blue-200">
+          <h2 className="text-32 text-center font-semibold text-custom-blue-500">
+            Join us today
+          </h2>
+
+          <p className="text-22 text-center w-4/5">
             If you&apos;re a small business owner or an aspiring entrepreneur
             looking to take your business to the next level, we invite you to
             join our program and become part of the Megadel Africa community.
@@ -102,6 +106,8 @@ export default function About() {
             embark on this journey with you and help you unlock your
             business&apos;s true potential.
           </p>
+
+          <Button classname="rounded-xl mt-4">Get Started</Button>
         </Section>
 
         <Subscribe />
