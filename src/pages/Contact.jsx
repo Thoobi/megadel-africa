@@ -10,7 +10,7 @@ export default function Contact() {
     <>
       <main>
         <Section classname="flex-col bg-custom-blue-500 text-white text-center px-12 sm:px-24 py-24">
-          <h1 className="text-[3.5rem] sm:text-50 mb-8 font-medium">
+          <h1 className="text-32 sm:text-50 mb-8 font-medium">
             Get in touch with us
           </h1>
           <p className="text-18 sm:text-24 font-light">
@@ -24,36 +24,40 @@ export default function Contact() {
             <h3 className="mb-8 text-24 sm:text-32 font-medium">
               Support Service
             </h3>
-            <ul className="flex flex-col items-start gap-[3rem]">
-              <li className="flex items-center gap-4 sm:gap-6 w-full">
+            <ul className="flex flex-col items-start gap-12">
+              <li className="flex items-center gap-4 w-full">
                 <img
                   src={mail}
                   alt="mail icon"
-                  className="-translate-y-1 inline-block"
+                  className="inline-block w-10 h-10"
                 />
-                <span className="inline-block flex-1 text-16 sm:text-22">
+                <span className="inline-block flex-1 text-16 sm:text-18">
                   megadelafrica@gmail.com
                 </span>
               </li>
-              <li className="flex items-center gap-6">
-                <img src={phone} alt="phone icon" className="-translate-y-1" />
+              <li className="flex items-center gap-4">
+                <img
+                  src={phone}
+                  alt="phone icon"
+                  className="inline-block w-10 h-10"
+                />
                 <span className="inline-block flex-1 text-16 sm:text-18">
-                  (+234)813-918-8935
+                  (+234) 813-918-8935
                 </span>
               </li>
-              <li className="flex items-center gap-6">
+              <li className="flex items-center gap-4">
                 <img
                   src={location}
                   alt="location icon"
-                  className="-translate-y-1"
+                  className="inline-block w-10 h-10"
                 />
-                <span className="inline-block flex-1 text-16 sm:text-22">
+                <span className="inline-block flex-1 text-16 sm:text-18">
                   Nigeria
                 </span>
               </li>
             </ul>
           </div>
-          <div className="p-[3rem] sm:px-[5rem] sm:py-[6rem] bg-white rounded-b-2xl lg:rounded-tr-2xl">
+          <div className="p-12 sm:px-[5rem] sm:py-[6rem] bg-white rounded-b-2xl lg:rounded-tr-2xl">
             <form
               action=""
               method="post"
