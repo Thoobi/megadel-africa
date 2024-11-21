@@ -262,34 +262,34 @@ const training = [
 
 const impact = [
   {
-    numbers: "500+",
+    numbers: "200+",
     title: "Business Trained",
     content:
-      "Over 500 businesses have successfully completed our training program and gained the knowledge and skills to drive their growth.",
+      "Over 200 businesses have successfully completed our training program and gained the knowledge and skills to drive their growth.",
   },
   {
-    numbers: "3000+",
+    numbers: "300+",
     title: "Community Members",
     content:
-      "Our online community boasts over 3,000 active members who engage in discussions, and collaborate on business opportunities.",
+      "Our online community boasts over 300 active members who engage in discussions, and collaborate on business opportunities.",
   },
   {
-    numbers: "5",
-    title: "Citis Impacted",
+    numbers: "5+",
+    title: "Cities Impacted",
     content:
       "Our reach extends to 5 cities, enabling entrepreneurs from various regions to benefit from our program.",
   },
   {
-    numbers: "100+",
+    numbers: "50+",
     title: "Volunteer Network",
     content:
-      "Our community is powered by a network of over 100 dedicated volunteers who contribute their time and expertise to empower small businesses. ",
+      "Our community is powered by a network of over 50 dedicated volunteers who contribute their time and expertise to empower small businesses. ",
   },
   {
-    numbers: "10",
+    numbers: "4",
     title: "Partnerships",
     content:
-      "We have forged partnerships with 10 organizations, including governmental bodies, sponsors, and service providers, to offer additional support and resources to our participants.",
+      "We have forged partnerships with 4 organizations, including governmental bodies, sponsors, and service providers, to offer additional support and resources to our participants.",
   },
 ];
 
