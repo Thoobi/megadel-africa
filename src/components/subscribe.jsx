@@ -1,8 +1,11 @@
 import Button from "./Button";
+import PropTypes from "prop-types";
 
-export default function Subscribe() {
+export default function Subscribe({ bgColor }) {
   return (
-    <section className="flex flex-col items-stretch text-center justify-center text-custom-blue-500 px-10 py-6 gap-4 sm:p-16 lg:items-center xl:p-32">
+    <section
+      className={`${bgColor} flex flex-col items-stretch text-center justify-center text-custom-blue-500 px-10 py-6 gap-4 sm:p-16 lg:items-center xl:p-32`}
+    >
       <h2 className="font-medium text-22 lg:text-32">
         Stay up to date with Megadel Africa
       </h2>
@@ -22,3 +25,7 @@ export default function Subscribe() {
     </section>
   );
 }
+
+Subscribe.propTypes = {
+  bgColor: PropTypes.string,
+};
