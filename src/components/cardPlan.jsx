@@ -8,7 +8,7 @@ export default function CardPlan() {
     <section className="flex flex-col items-center justify-center gap-8 py-16 px-6 sm:px-8 lg:p-32 xl:gap-32">
       <div className="text-center text-custom-blue-500">
         <h2 className="font-semibold text-22 mb-4 lg:text-32 xl:mb-8">
-          Choose A Website Plan
+          Choose A Plan
         </h2>
         <p className="text-16 lg:text-22">
           Select the Plan That&apos;s Right for You

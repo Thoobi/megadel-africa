@@ -57,11 +57,11 @@ export default function Contact() {
               </li>
             </ul>
           </div>
-          <div className="p-12 sm:px-[5rem] sm:py-[6rem] bg-white rounded-b-2xl lg:rounded-tr-2xl">
+          <div className="p-12 sm:px-20 sm:py-24 bg-white rounded-b-2xl lg:rounded-tr-2xl">
             <form
               action=""
               method="post"
-              className="flex flex-col gap-[.75rem]"
+              className="flex flex-col gap-3 text-16"
             >
               <label htmlFor="full-name" className="text-custom-blue-500">
                 Full Name
@@ -70,7 +70,7 @@ export default function Contact() {
                 type="text"
                 id="full-name"
                 placeholder="Enter full name"
-                className="border-[1.5px] rounded-lg px-[1rem] py-[1.5rem] outline-none lg:w-[45rem] mb-[2rem]"
+                className="border-2 rounded-lg px-6 py-4 outline-none lg:w-[45rem] mb-8"
               />
 
               <label htmlFor="phone-number" className="text-custom-blue-500">
@@ -80,7 +80,7 @@ export default function Contact() {
                 type="tel"
                 id="phone-number"
                 placeholder="Enter phone number"
-                className="border-[1.5px] rounded-lg px-[1rem] py-[1.5rem] outline-none lg:w-[45rem] mb-[2rem]"
+                className="border-2 rounded-lg px-4 py-6 outline-none lg:w-[45rem] mb-8"
               />
 
               <label htmlFor="mail" className="text-custom-blue-500">
@@ -90,20 +90,20 @@ export default function Contact() {
                 type="email"
                 id="mail"
                 placeholder="Enter address"
-                className="border-[1.5px] rounded-lg px-[1rem] py-[1.5rem] outline-none lg:w-[45rem] mb-[2rem]"
+                className="border-2 rounded-lg px-4 py-6 outline-none lg:w-[45rem] mb-8"
               />
 
               <label className="text-custom-blue-500">
                 What are you making enquiry on?
               </label>
-              <div className="grid grid-flow-col auto-cols-max sm:flex sm:items-center gap-[1rem] mt-4">
+              <div className="grid grid-flow-col auto-cols-max sm:flex sm:items-center gap-4 mt-4">
                 <input
                   type="checkbox"
                   name="Training"
                   id="training"
                   value="training"
                 />
-                <label htmlFor="training" className="mr-[2rem]">
+                <label htmlFor="training" className="mr-8">
                   Training
                 </label>
 
@@ -114,7 +114,7 @@ export default function Contact() {
                   value="partnership"
                   className="row-start-2 col-start-1"
                 />
-                <label htmlFor="partnership" className="mr-[2rem]">
+                <label htmlFor="partnership" className="mr-8">
                   Partnership
                 </label>
 

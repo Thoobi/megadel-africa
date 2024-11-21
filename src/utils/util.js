@@ -122,7 +122,7 @@ const websitePlan = [
         value: "Unlimited Storage",
       },
       {
-        status: false,
+        status: true,
         value: "Payment Gateway",
       },
     ],

@@ -16,7 +16,7 @@ export default function CommunitySection() {
 
       <ul className="grid grid-cols-2 place-items-center border-t-2 border-b-2 border-gray-400 py-8 gap-12 text-center lg:w-7/12 lg:grid-cols-4">
         <li className="flex flex-col items-center justify-center gap-2">
-          <span className="font-semibold text-22 lg:text-40">500+</span>
+          <span className="font-semibold text-22 lg:text-40">200+</span>
           <span className="font-medium text-13 leading-tight lg:text-13">
             Business Owners trained
           </span>
@@ -28,13 +28,13 @@ export default function CommunitySection() {
           </span>
         </li>
         <li className="flex flex-col items-center justify-center gap-2">
-          <span className="font-semibold text-22 lg:text-40">10+</span>
+          <span className="font-semibold text-22 lg:text-40">5+</span>
           <span className="font-medium text-13 leading-tight lg:text-13">
             Implementation Partners
           </span>
         </li>
         <li className="flex flex-col items-center justify-center gap-2 col-start-2 row-start-1 xl:col-start-3">
-          <span className="font-semibold text-22 lg:text-40">100+</span>
+          <span className="font-semibold text-22 lg:text-40">50+</span>
           <span className="font-medium text-13 leading-tight lg:text-13">
             Volunteer Team Members
           </span>
