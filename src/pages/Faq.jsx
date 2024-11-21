@@ -1,6 +1,8 @@
 import { FaPlus } from "react-icons/fa";
 import Section from "../components/Section";
 import { faqs } from "../utils/util";
+import Subscribe from "../components/subscribe";
+import Footer from "../components/footer";
 
 export default function Faq() {
   return (
@@ -28,7 +30,11 @@ export default function Faq() {
             </div>
           ))}
         </Section>
+
+        <Subscribe />
       </main>
+
+      <Footer />
     </>
   );
 }
