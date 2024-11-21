@@ -43,29 +43,29 @@ export default function Footer() {
       <div className="flex flex-col gap-8 text-16">
         <h4 className="font-semibold text-custom-blue-500">Company</h4>
         <p>
-          <Link href="/about-us">About Us</Link>
+          <Link to="/about">About Us</Link>
         </p>
         <p>
-          <Link href="/contact-us">Contact Us</Link>
+          <Link to="/contact">Contact Us</Link>
         </p>
         <p>
-          <Link href="/faqs">FAQs</Link>
+          <Link to="/faqs">FAQs</Link>
         </p>
       </div>
       <div className="flex flex-col gap-8 text-16">
         <h4 className="font-semibold text-custom-blue-500">Resources</h4>
         <p>
-          <Link href="privacy-policy">Privacy Policy</Link>
+          <Link to="privacy-policy">Privacy Policy</Link>
         </p>
         <p>
-          <Link href="terms&conditions">Terms & Conditions</Link>
+          <Link to="terms&conditions">Terms & Conditions</Link>
         </p>
       </div>
       <div className="flex flex-col gap-8 col-span-4 text-16 lg:col-span-1">
-        <p>44 Commercial Avenue, Sabo, Yaba, Lagos State.</p>
+        <p>10 Hughes Ave, Alagomeji-Yaba, Lagos</p>
         <p>
           <Link
-            href="mailto:hello@megadelafrica.com"
+            to="mailto:hello@megadelafrica.com"
             className="underline hover:underline-offset-2"
           >
             hello@megadelafrica.com
