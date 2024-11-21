@@ -19,7 +19,7 @@ export default function Faq() {
           {faqs.map((faq, i) => (
             <div
               key={i}
-              className="flex items-center justify-between w-full bg-gray-300 px-4"
+              className="flex items-center justify-between w-full bg-gray-300 p-10 text-18"
             >
               {faq.title}
               <span>
