@@ -31,7 +31,7 @@ export default function Faq() {
           ))}
         </Section>
 
-        <Subscribe />
+        <Subscribe bgColor="bg-custom-blue-100 bg-opacity-10" />
       </main>
 
       <Footer />
