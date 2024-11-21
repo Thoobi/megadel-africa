@@ -302,12 +302,12 @@ const faqs = [
   {
     title: "How does Megadel Africa help entrepreneurs?",
     content: `We offer a range of services, including:
-${(<li>MVP development</li>)}
-${(<li>Market validation</li>)}
-${(<li>Investor matching</li>)}
-${(<li>Mentorship</li>)}
-${(<li>Networking opportunities</li>)}
-${(<li>Access to resources and tools</li>)}`,
+    <ul>
+      <li>MVP development</li>
+      <li>Market validation</li>
+      <li>Investor matching</li>
+    </ul>
+  `,
   },
   {
     title: "What is an MVP?",
