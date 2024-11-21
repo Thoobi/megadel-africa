@@ -293,6 +293,79 @@ const impact = [
   },
 ];
 
+const faqs = [
+  {
+    title: "What is Megadel Africa?",
+    content:
+      "Megadel Africa is a platform dedicated to empowering African entrepreneurs by providing comprehensive support for MVP development, market validation, funding, and more.",
+  },
+  {
+    title: "How does Megadel Africa help entrepreneurs?",
+    content: `We offer a range of services, including:
+${(<li>MVP development</li>)}
+${(<li>Market validation</li>)}
+${(<li>Investor matching</li>)}
+${(<li>Mentorship</li>)}
+${(<li>Networking opportunities</li>)}
+${(<li>Access to resources and tools</li>)}`,
+  },
+  {
+    title: "What is an MVP?",
+    content:
+      "An MVP (Minimum Viable Product) is a simplified version of a product that allows you to test your idea and gather feedback from potential customers before investing heavily in development.",
+  },
+  {
+    title: "How long does MVP development process take?",
+    content:
+      "The timeline for MVP development varies depending on the complexity of your project. However, we strive to deliver high-quality MVPs in a timely manner.",
+  },
+  {
+    title: "What is the cost of MVP development?",
+    content:
+      "Our pricing is tailored to each individual project. Please contact us for a personalized quote.",
+  },
+  {
+    title: "Can I provide my own design for the MVP?",
+    content:
+      "Yes, you can provide your own design or collaborate with our designers to create a unique look and feel.",
+  },
+  {
+    title: "How do you validate a business idea?",
+    content:
+      "We use a combination of market research, customer surveys, and competitive analysis to validate your business idea.",
+  },
+  {
+    title: "What kind of market research do you conduct?",
+    content:
+      "We conduct various types of market research, including industry analysis, target market segmentation, and competitor analysis.",
+  },
+  {
+    title: "How can Megadel Africa help me secure funding?",
+    content:
+      "We can connect you with potential investors and provide guidance on preparing your pitch deck and financial projections.",
+  },
+  {
+    title: "What types of fund are available throught Megadel Africa",
+    content:
+      "We can help you explore various funding options, such as angel investments, venture capital, and grants.",
+  },
+  {
+    title: "Who are the mentors at Megadel Africa?",
+    content:
+      "Our mentors are experienced entrepreneurs and industry experts who can provide valuable guidance and support.",
+  },
+  {
+    title: "How can I benefit from membership?",
+    content:
+      "Mentorship can help you overcome challenges, make informed decisions, and accelerate your business growth.",
+  },
+  {
+    title: "How can I connect with other entrepreneur through Megadel Africa",
+    content:
+      "We offer networking opportunities, such as events, online communities, and mentorship programs.",
+  },
+];
+
 export {
   websitePlan,
   smallBusiness,
@@ -300,4 +373,5 @@ export {
   benefits,
   training,
   impact,
+  faqs,
 };
