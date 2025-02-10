@@ -1,6 +1,7 @@
 // import "./globals.css";
 
 import Header from "../components/header";
+import Navbar from "../components/navbar";
 import Subscribe from "../components/subscribe";
 import Footer from "../components/footer";
 import CardPlan from "../components/cardPlan";
@@ -14,6 +15,7 @@ import CommunitySection from "../components/communitySection";
 export default function Home() {
   return (
     <>
+      <Navbar />
       <Header />
 
       <main>

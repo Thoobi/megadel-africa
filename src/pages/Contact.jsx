@@ -4,10 +4,11 @@ import location from "../asset/contact/contact-location.svg";
 import Subscribe from "../components/subscribe";
 import Footer from "../components/footer";
 import Section from "../components/Section";
-
+import Navbar from "../components/navbar";
 export default function Contact() {
   return (
     <>
+      <Navbar />
       <main>
         <Section classname="flex-col bg-custom-blue-500 text-white text-center px-12 sm:px-24 py-24">
           <h1 className="text-32 sm:text-50 mb-8 font-medium">

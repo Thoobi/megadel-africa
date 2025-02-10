@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-import Logo from "@/public/asset/megadel-logo.png";
+import Logo from "../asset/megadel-logo.png";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { useState } from "react";
 
@@ -38,19 +38,16 @@ export default function Navbar() {
           } flex-col items-end gap-[3rem] text-custom-blue-500 font-medium lg:gap-[4rem] xl:flex xl:items-center xl:py-0 xl:flex-row xl:gap-[6rem]`}
         >
           <li>
-            <Link to="/services">Our Services</Link>
+            <Link to="/about">About Us</Link>
           </li>
           <li>
-            <Link to="/resources">Resources</Link>
+            <Link to="/faqs">FAQs</Link>
           </li>
           <li>
-            <Link to="/pricing">Pricing</Link>
-          </li>
-          <li>
-            <Link to="/community">Our Community</Link>
+            <Link to="/contact">Contact Us</Link>
           </li>
           <li className="text-white bg-custom-blue-100 rounded-[1rem] px-[3rem] py-[1rem] xl:py-[1.5rem]">
-            <Link to="/Get Started">Get Started</Link>
+            <Link to="/get-started">Get Started</Link>
           </li>
         </ul>
       </div>

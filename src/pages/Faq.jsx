@@ -3,10 +3,11 @@ import Section from "../components/Section";
 import { faqs } from "../utils/util";
 import Subscribe from "../components/subscribe";
 import Footer from "../components/footer";
-
+import Navbar from "../components/navbar";
 export default function Faq() {
   return (
     <>
+      <Navbar />
       <main>
         <Section classname="flex-col bg-custom-blue-500 text-white text-center px-12 sm:px-24 py-24">
           <h1 className="text-32 sm:text-50 mb-8 font-medium">

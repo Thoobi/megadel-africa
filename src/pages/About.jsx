@@ -6,10 +6,11 @@ import about from "../asset/about/about.svg";
 import vision from "../asset/about/vision.svg";
 import Section from "../components/Section";
 import Button from "../components/Button";
-
+import Navbar from "../components/navbar";
 export default function About() {
   return (
     <>
+      <Navbar />
       <header className="flex flex-col items-center justify-center gap-2 h-screen-1/2 bg-custom-blue-900 text-white">
         <h1 className="text-40 font-semibold">Empowering Global Innovation</h1>
         <p className="text-18 font-serif">
