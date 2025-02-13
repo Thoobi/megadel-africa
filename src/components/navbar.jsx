@@ -46,7 +46,7 @@ export default function Navbar() {
           <li>
             <Link to="/contact">Contact Us</Link>
           </li>
-          <li className="text-white bg-custom-blue-100 rounded-[1rem] px-[3rem] py-[1rem] xl:py-[1.5rem]">
+          <li className="text-white bg-custom-blue-100 rounded-[1rem] px-[3rem] py-[1rem] xl:py-[1.5rem] cursor-pointer">
             <Link to="/get-started">Get Started</Link>
           </li>
         </ul>
